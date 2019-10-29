@@ -1,0 +1,25 @@
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.search-section {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-left: 10px;
+}
+
+.search-section:first-child {
+    background-color: rgb(170, 170, 170);
+}
+
+.search-section:nth-child(2) {
+    background-color: rgb(204, 204, 204);
+}
